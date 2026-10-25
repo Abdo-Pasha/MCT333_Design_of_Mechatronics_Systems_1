@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<Created by="" on="10/23/26||23:33:07" using="Simscape Multibody Link Version 7.4" from="SolidWorks 34.2.1"/>
+<Created by="" on="10/24/26||22:06:02" using="Simscape Multibody Link Version 7.4" from="SolidWorks 34.2.1"/>
 <ModelUnits mass="kilogram" length="millimeter"/>
 <DataUnits mass="kilogram" length="meter"/>
-<RootAssembly name="FullAssemblyMultibody" uid="FullAssemblyMultibody" version="352">
+<RootAssembly name="FullAssemblyMultibody" uid="FullAssemblyMultibody" version="530">
 <AssemblyFile name="FullAssemblyMultibody.SLDASM" type="SolidWorks Assembly"/>
 <InstanceTree>
-<Instance name="EndEffectorMultibodyPart-1" uid="EndEffectorMultibodyPart-1" entityUid="EndEffectorMultibodyPart*:*Default">
+<Instance name="Y_axisMutlibodyPart-1" uid="Y_axisMutlibodyPart-1" entityUid="Y_axisMutlibodyPart*:*Default">
 <Transform>
-<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
-<Translation>-0.26708470890136193 0.48174803031507785 -0.010861205355525028</Translation>
+<Rotation>1 0 1.4037396669896562e-11 0 1 1.0874649385210251e-15 -1.4037396669896562e-11 -1.0874649385197223e-15 1</Rotation>
+<Translation>-0.34891677957922285 0.036784049646129316 -0.187874832336793</Translation>
 </Transform>
 </Instance>
-<Instance name="FullAssembly-1" uid="FullAssembly-1" grounded="true" entityUid="FullAssembly*:*Default">
+<Instance name="Product 2 Lid.stp-1" uid="Product 2 Lid.stp-1" entityUid="Product 2 Lid.stp*:*Default">
 <Transform>
-<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
-<Translation>0 0.056912182732021997 0</Translation>
+<Rotation>0.07416407873757469 -2.0627888616400007e-15 0.99724605259936072 1.5495256882234541e-16 1 2.0569617114838263e-15 -0.99724605259936072 0 0.07416407873757469</Rotation>
+<Translation>0.25868643701788163 0.17891218268417983 -0.12107284350147776</Translation>
 </Transform>
 </Instance>
-<Instance name="FeedingDiscMultibodyPart-1" uid="FeedingDiscMultibodyPart-1" entityUid="FeedingDiscMultibodyPart*:*Default">
+<Instance name="Product 2 Base.stp-1" uid="Product 2 Base.stp-1" entityUid="Product 2 Base.stp*:*Default">
 <Transform>
-<Rotation>-0.64387633554223223 -0.76512957368586065 4.3492610789825696e-15 1.0374995287248148e-14 -3.0464812078950126e-15 0.99999999999999989 -0.76512957368586065 0.64387633554223223 9.8997728775626997e-15</Rotation>
-<Translation>0.23501196161620877 0.19058293083360547 -0.23218440957703998</Translation>
+<Rotation>-0.34747395471070086 -2.0627888616400015e-15 0.93768963457943044 -7.1491518499316252e-16 1 1.9349413581194952e-15 -0.93768963457943044 0 -0.34747395471070086</Rotation>
+<Translation>0.32391428770531572 0.17891218273202075 -0.079677838724564271</Translation>
+</Transform>
+</Instance>
+<Instance name="LocatingPart-4" uid="LocatingPart-4" entityUid="LocatingPart*:*Default">
+<Transform>
+<Rotation>-0.97218757814480261 0 -0.23420357149485072 0 1 0 0.23420357149485072 0 -0.97218757814480261</Rotation>
+<Translation>0.25868643701788158 0.19491218273202071 -0.12107284350147775</Translation>
 </Transform>
 </Instance>
 <Instance name="PneumaticAirCylinder-1" uid="PneumaticAirCylinder-1" entityUid="PneumaticAirCylinder*:*Default">
@@ -30,40 +36,88 @@
 <Translation>0.26957403825682053 0.083412182732022 0</Translation>
 </Transform>
 </Instance>
-<Instance name="Y_axisMutlibodyPart-1" uid="Y_axisMutlibodyPart-1" entityUid="Y_axisMutlibodyPart*:*Default">
+<Instance name="Product Base.stp-1" uid="Product Base.stp-1" entityUid="Product Base.stp*:*Default">
 <Transform>
-<Rotation>1 0 1.4037396669896562e-11 0 1 1.0874649385210251e-15 -1.4037396669896562e-11 -1.0874649385197223e-15 1</Rotation>
-<Translation>-0.429303431691337 0.036784049646145928 -0.18787483233681609</Translation>
+<Rotation>0.30676968980146246 -2.0627888616400153e-15 0.95178377661058866 6.3467912780500405e-16 1 1.9627236651714031e-15 -0.95178377661058866 0 0.30676968980146246</Rotation>
+<Translation>0.12205912057462831 0.17891218273202039 -0.066978524693510871</Translation>
+</Transform>
+</Instance>
+<Instance name="FeedingDiscMultibodyPart-2" uid="FeedingDiscMultibodyPart-2" entityUid="FeedingDiscMultibodyPart*:*Default">
+<Transform>
+<Rotation>0.22268033471892923 -0.97489151628756399 -3.8164333358157498e-15 9.0039094789058398e-15 -1.8580936740244823e-15 1 -0.97489151628756399 -0.22268033471892923 8.3640740431355867e-15</Rotation>
+<Translation>0.41738935321593551 0.19058293083359451 -0.13412499066582739</Translation>
+</Transform>
+</Instance>
+<Instance name="FullAssembly-1" uid="FullAssembly-1" grounded="true" entityUid="FullAssembly*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.056912182732021997 0</Translation>
+</Transform>
+</Instance>
+<Instance name="LocatingPart-1" uid="LocatingPart-1" entityUid="LocatingPart*:*Default">
+<Transform>
+<Rotation>-0.97218757814480261 0 -0.23420357149485072 0 1 0 0.23420357149485072 0 -0.97218757814480261</Rotation>
+<Translation>0.10284664590844465 0.17591218273202031 0.007848607704999247</Translation>
 </Transform>
 </Instance>
 <Instance name="Z_axisMultibodyPart-1" uid="Z_axisMultibodyPart-1" entityUid="Z_axisMultibodyPart*:*Default">
 <Transform>
 <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
-<Translation>-0.26708470890136771 0.29319104964614201 -0.010861205355526191</Translation>
+<Translation>-0.186698056789256 0.2931910496461369 0.063535244933861618</Translation>
 </Transform>
 </Instance>
-<Instance name="Product Base.stp-1" uid="Product Base.stp-1" entityUid="Product Base.stp*:*Default">
+<Instance name="EndEffectorMultibodyPart-1" uid="EndEffectorMultibodyPart-1" entityUid="EndEffectorMultibodyPart*:*Default">
 <Transform>
-<Rotation>0.86898994308300537 -1.2677982268545569e-15 -0.49482974730769314 -6.1125351607597421e-16 1 -3.6355360500994192e-15 0.49482974730769314 3.4617106881529215e-15 0.86898994308300537</Rotation>
-<Translation>0.11065261056025669 0.17891218273205989 0.043973780613817841</Translation>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.18669805678927928 0.34520351418733031 0.063535244933862728</Translation>
 </Transform>
 </Instance>
 <Instance name="Product Lid.stp-1" uid="Product Lid.stp-1" entityUid="Product Lid.stp*:*Default">
 <Transform>
-<Rotation>0.98629481306589284 -1.2677982268545528e-15 0.16499255049642589 1.821579290679866e-15 1 -3.2050900330963877e-15 -0.16499255049642589 3.4617106881529006e-15 0.98629481306589284</Rotation>
-<Translation>0.10721831158893587 0.1789121826842219 -0.033204095207939405</Translation>
+<Rotation>0.52569781859428222 -2.0627888616399972e-15 -0.8506713839816249 1.082725087854411e-15 1 -1.755792745521454e-15 0.8506713839816249 0 0.52569781859428222</Rotation>
+<Translation>0.18158462397874994 0.17891218268417966 -0.11622213717542371</Translation>
 </Transform>
 </Instance>
-<Instance name="Product 2 Lid.stp-1" uid="Product 2 Lid.stp-1" entityUid="Product 2 Lid.stp*:*Default">
+<Instance name="LocatingPart-2" uid="LocatingPart-2" entityUid="LocatingPart*:*Default">
 <Transform>
-<Rotation>0.97566203356942871 -1.267798226854551e-15 0.21927972147731128 1.9960255517018237e-15 1 -3.0994572475581755e-15 -0.21927972147731128 3.4617106881528856e-15 0.97566203356942871</Rotation>
-<Translation>0.14980392256863295 0.17891218268417974 -0.097660938624823126</Translation>
+<Rotation>-0.97218757814480261 0 -0.23420357149485072 0 1 0 0.23420357149485072 0 -0.97218757814480261</Rotation>
+<Translation>0.12205912057462825 0.19491218273202043 -0.066978524693510871</Translation>
 </Transform>
 </Instance>
-<Instance name="Product 2 Base.stp-1" uid="Product 2 Base.stp-1" entityUid="Product 2 Base.stp*:*Default">
+<Instance name="LocatingPart-3" uid="LocatingPart-3" entityUid="LocatingPart*:*Default">
 <Transform>
-<Rotation>0.12472932872582032 -1.267798226854632e-15 0.99219080551857908 3.5928091379460991e-15 1 8.2612089356161128e-16 -0.99219080551857908 3.4617106881529373e-15 0.12472932872582032</Rotation>
-<Translation>0.22214318753681817 0.17891218273202239 -0.12477642625911785</Translation>
+<Rotation>-0.97218757814480261 0 -0.23420357149485072 0 1 0 0.23420357149485072 0 -0.97218757814480261</Rotation>
+<Translation>0.18158462397874994 0.19491218273202057 -0.11622213717542366</Translation>
+</Transform>
+</Instance>
+<Instance name="LocatingPart-8" uid="LocatingPart-8" entityUid="LocatingPart*:*Default">
+<Transform>
+<Rotation>-0.97218757814480261 0 -0.23420357149485072 0 1 0 0.23420357149485072 0 -0.97218757814480261</Rotation>
+<Translation>-0.03549999999999999 0.065912182732021984 -0.074499999999999969</Translation>
+</Transform>
+</Instance>
+<Instance name="LocatingPart-7" uid="LocatingPart-7" entityUid="LocatingPart*:*Default">
+<Transform>
+<Rotation>-0.97218757814480261 0 -0.23420357149485072 0 1 0 0.23420357149485072 0 -0.97218757814480261</Rotation>
+<Translation>-0.22449999999999992 0.065912182732021984 0.11949999999999994</Translation>
+</Transform>
+</Instance>
+<Instance name="LocatingPart-9" uid="LocatingPart-9" entityUid="LocatingPart*:*Default">
+<Transform>
+<Rotation>-0.97218757814480261 0 -0.23420357149485072 0 1 0 0.23420357149485072 0 -0.97218757814480261</Rotation>
+<Translation>-0.22449999999999995 0.065912182732021984 0.056499999999999967</Translation>
+</Transform>
+</Instance>
+<Instance name="LocatingPart-6" uid="LocatingPart-6" entityUid="LocatingPart*:*Default">
+<Transform>
+<Rotation>-0.97218757814480261 0 -0.23420357149485072 0 1 0 0.23420357149485072 0 -0.97218757814480261</Rotation>
+<Translation>0.030999999999999989 0.06091218273202198 0</Translation>
+</Transform>
+</Instance>
+<Instance name="LocatingPart-5" uid="LocatingPart-5" entityUid="LocatingPart*:*Default">
+<Transform>
+<Rotation>-0.97218757814480261 0 -0.23420357149485072 0 1 0 0.23420357149485072 0 -0.97218757814480261</Rotation>
+<Translation>0.32391428770531561 0.19491218273202085 -0.079677838724564257</Translation>
 </Transform>
 </Instance>
 </InstanceTree>
@@ -100,38 +154,6 @@
 <Axis>0 0 -1.0000000000000002</Axis>
 </ConstraintGeometry>
 </Parallel>
-<Concentric name="Concentric2">
-<ConstraintGeometry geomType="cylinder">
-<InstancePath>
-<Uid>FullAssembly-1</Uid>
-</InstancePath>
-<Position>0.22769999999999929 0.12409999999999938 9.9999999999633694e-05</Position>
-<Axis>1.2328548992584504e-15 -1 -3.344337089404651e-15</Axis>
-</ConstraintGeometry>
-<ConstraintGeometry geomType="cylinder">
-<InstancePath>
-<Uid>FeedingDiscMultibodyPart-1</Uid>
-</InstancePath>
-<Position>-0.17301967222247661 0.15515703251627955 -0.00927074810157269</Position>
-<Axis>1.0684262085920584e-14 3.3819367262433411e-15 0.99999999999999989</Axis>
-</ConstraintGeometry>
-</Concentric>
-<Coincident name="Coincident5">
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>FullAssembly-1</Uid>
-</InstancePath>
-<Position>0.2318609238338942 0.13599999999999857 -0.027197261754971259</Position>
-<Axis>-1.9999999999999982e-15 1 0</Axis>
-</ConstraintGeometry>
-<ConstraintGeometry geomType="plane">
-<InstancePath>
-<Uid>FeedingDiscMultibodyPart-1</Uid>
-</InstancePath>
-<Position>-0.17301967222247699 0.15515703251628002 0.0023292518984280031</Position>
-<Axis>-8.5426433407120129e-15 -1.5246230153324001e-16 -0.99999999999999989</Axis>
-</ConstraintGeometry>
-</Coincident>
 <Distance name="Distance1">
 <ConstraintGeometry geomType="plane">
 <InstancePath>
@@ -153,7 +175,7 @@
 <InstancePath>
 <Uid>Y_axisMutlibodyPart-1</Uid>
 </InstancePath>
-<Position>0.13530938295589295 0.24638500000000307 0.41717199999527399</Position>
+<Position>0.13530938295589301 0.24638500000000302 0.41717199999527399</Position>
 <Axis>0 1 0</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
@@ -169,14 +191,14 @@
 <InstancePath>
 <Uid>Z_axisMultibodyPart-1</Uid>
 </InstancePath>
-<Position>-0.011884999999999979 0 0</Position>
+<Position>-0.011885000000000007 0 0</Position>
 <Axis>1 -3.3500106680253531e-16 3.0872285864162766e-16</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
 <InstancePath>
 <Uid>Y_axisMutlibodyPart-1</Uid>
 </InstancePath>
-<Position>0.16858806261296949 0.26638500000000498 0.37182200000018306</Position>
+<Position>0.16858806261296949 0.26638500000000492 0.37182200000018306</Position>
 <Axis>1 -1.999999999999517e-15 1.4036222044604925e-11</Axis>
 </ConstraintGeometry>
 </Distance>
@@ -185,14 +207,14 @@
 <InstancePath>
 <Uid>Z_axisMultibodyPart-1</Uid>
 </InstancePath>
-<Position>-0.0068849999999999745 0.093499999999999972 -0.043999999999999997</Position>
+<Position>-0.0068850000000000022 0.093499999999999972 -0.043999999999999997</Position>
 <Axis>0 1 4.0371746350005701e-16</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
 <InstancePath>
 <Uid>Y_axisMutlibodyPart-1</Uid>
 </InstancePath>
-<Position>0.1485880626130397 0.26938500000000498 0.36682199999990228</Position>
+<Position>0.14858806261303964 0.26938500000000493 0.36682199999990228</Position>
 <Axis>2.0000000000004821e-15 1 -5.9999999999985805e-15</Axis>
 </ConstraintGeometry>
 </Distance>
@@ -228,6 +250,290 @@
 <Axis>8.3e-14 -1 -1.0000000000000001e-15</Axis>
 </ConstraintGeometry>
 </Concentric>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+<Position>0.22760000000000016 0.12199999999999855 -4.9960036108132044e-16</Position>
+<Axis>2.0627888616400004e-15 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FeedingDiscMultibodyPart-2</Uid>
+</InstancePath>
+<Position>-0.17301967222247699 0.15515703251627996 0.0023292518984279753</Position>
+<Axis>8.5426433407120098e-15 1.5246230153324082e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+<Position>0.2318609238338942 0.13599999999999857 -0.027197261754971259</Position>
+<Axis>-1.9999999999999982e-15 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FeedingDiscMultibodyPart-2</Uid>
+</InstancePath>
+<Position>-0.17301967222247699 0.15515703251627996 0.0023292518984279753</Position>
+<Axis>-8.5426433407120098e-15 -1.5246230153324082e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Lock5">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>LocatingPart-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+<Position>0.22760000000000016 0.12199999999999855 -4.9960036108132044e-16</Position>
+<Axis>-2.0627888616400004e-15 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LocatingPart-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Lock10">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>FeedingDiscMultibodyPart-2</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>LocatingPart-2</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FeedingDiscMultibodyPart-2</Uid>
+</InstancePath>
+<Position>-0.17301967222247694 0.15515703251627996 0.0073292518984279798</Position>
+<Axis>8.5426433407120098e-15 1.5246230153324082e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LocatingPart-2</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Lock11">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>FeedingDiscMultibodyPart-2</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>LocatingPart-3</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FeedingDiscMultibodyPart-2</Uid>
+</InstancePath>
+<Position>-0.17301967222247694 0.15515703251627996 0.0073292518984279798</Position>
+<Axis>8.5426433407120098e-15 1.5246230153324082e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LocatingPart-3</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Lock12">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>FeedingDiscMultibodyPart-2</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>LocatingPart-4</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FeedingDiscMultibodyPart-2</Uid>
+</InstancePath>
+<Position>-0.17301967222247694 0.15515703251627996 0.0073292518984279798</Position>
+<Axis>8.5426433407120098e-15 1.5246230153324082e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LocatingPart-4</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Lock13">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>FeedingDiscMultibodyPart-2</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>LocatingPart-5</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FeedingDiscMultibodyPart-2</Uid>
+</InstancePath>
+<Position>-0.17301967222247694 0.15515703251627996 0.0073292518984279798</Position>
+<Axis>8.5426433407120098e-15 1.5246230153324082e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LocatingPart-5</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Lock6">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>LocatingPart-6</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+<Position>0 0.0069999999999999993 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LocatingPart-6</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Lock7">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>LocatingPart-8</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+<Position>-0.13 0.012000000000000004 -0.043000000000000003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LocatingPart-8</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Lock8">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>LocatingPart-7</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+<Position>-0.13 0.012000000000000004 0.087999999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LocatingPart-7</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Lock9">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>LocatingPart-9</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FullAssembly-1</Uid>
+</InstancePath>
+<Position>-0.13 0.012000000000000004 0.087999999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LocatingPart-9</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
 </Constraints>
 </RootAssembly>
 <Assemblies>
@@ -237,9 +543,9 @@
 <ModelUnits mass="kilogram" length="millimeter"/>
 <PartFile name="EndEffectorMultibodyPart.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.12694637925810193</Mass>
-<CenterOfMass>0.035482383900438071 -0.097263883533315096 -6.2599144697099668e-06</CenterOfMass>
-<Inertia>0.00024231863946769144 0.00016732034419012569 0.0001347121195089106 1.2687490560024583e-08 7.4185712949776761e-09 4.1155261659645111e-05</Inertia>
+<Mass>0.1269463792581019</Mass>
+<CenterOfMass>0.035482383900438078 -0.097263883533315096 -6.2599144697065524e-06</CenterOfMass>
+<Inertia>0.00024231863946769144 0.00016732034419012566 0.00013471211950891063 1.2687490560016002e-08 7.4185712949791187e-09 4.1155261659645124e-05</Inertia>
 </MassProperties>
 <GeometryFile name="EndEffectorMultibodyPart_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -255,8 +561,8 @@
 <PartFile name="FeedingDiscMultibodyPart.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
 <Mass>0.38864315410113254</Mass>
-<CenterOfMass>-0.17306389753382828 0.15503104520678163 0.0033704907285107763</CenterOfMass>
-<Inertia>0.0017117668383430065 0.0017117519933457894 0.0034175553343456064 -1.7339359111057538e-07 -6.086633314147867e-08 -5.9433946065863709e-09</Inertia>
+<CenterOfMass>-0.17306389753382828 0.15503104520678163 0.0033704907285107746</CenterOfMass>
+<Inertia>0.0017117668383430065 0.0017117519933457898 0.0034175553343456073 -1.7339359111057557e-07 -6.0866333141478471e-08 -5.9433946065830895e-09</Inertia>
 </MassProperties>
 <GeometryFile name="FeedingDiscMultibodyPart_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -276,6 +582,23 @@
 <Inertia>0.58458557652867971 1.5858890703338784 1.1032371118359252 0.0067632601749964332 0.044862591389777405 -0.0065520447809914615</Inertia>
 </MassProperties>
 <GeometryFile name="FullAssembly_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LocatingPart" uid="LocatingPart*:*Default" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LocatingPart.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00052778756580308716</Mass>
+<CenterOfMass>0 0.0014999999999999985 0</CenterOfMass>
+<Inertia>2.0735453991488872e-07 4.1391739848107175e-07 2.0735453991488769e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="LocatingPart_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
 <Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
 <Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
@@ -305,8 +628,8 @@
 <ModelUnits mass="kilogram" length="millimeter"/>
 <PartFile name="Product 2 Base.stp.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.066230387862396364</Mass>
-<CenterOfMass>0 0.01746423518018694 0</CenterOfMass>
+<Mass>0.066230387862396378</Mass>
+<CenterOfMass>0 0.017464235180186943 0</CenterOfMass>
 <Inertia>1.6719440346195261e-05 1.8617548164407642e-05 1.6719440346195265e-05 0 0 0</Inertia>
 </MassProperties>
 <GeometryFile name="Product 2 Base.stp_Default_sldprt.STEP" type="STEP"/>
@@ -322,9 +645,9 @@
 <ModelUnits mass="kilogram" length="millimeter"/>
 <PartFile name="Product 2 Lid.stp.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.021286083939042636</Mass>
+<Mass>0.021286083939042633</Mass>
 <CenterOfMass>0 0.012746745549135022 0</CenterOfMass>
-<Inertia>4.9569857761351918e-06 8.7222724797557204e-06 4.9569857761351943e-06 0 0 0</Inertia>
+<Inertia>4.9569857761351926e-06 8.7222724797557204e-06 4.9569857761351943e-06 0 0 0</Inertia>
 </MassProperties>
 <GeometryFile name="Product 2 Lid.stp_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -339,7 +662,7 @@
 <ModelUnits mass="kilogram" length="millimeter"/>
 <PartFile name="Product Base.stp.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.06623038786239635</Mass>
+<Mass>0.066230387862396364</Mass>
 <CenterOfMass>0 0.017464235180186943 0</CenterOfMass>
 <Inertia>1.6719440346195261e-05 1.8617548164407642e-05 1.6719440346195265e-05 0 0 0</Inertia>
 </MassProperties>
@@ -356,7 +679,7 @@
 <ModelUnits mass="kilogram" length="millimeter"/>
 <PartFile name="Product Lid.stp.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.021286083939042636</Mass>
+<Mass>0.021286083939042633</Mass>
 <CenterOfMass>0 0.012746745549135022 0</CenterOfMass>
 <Inertia>4.9569857761351918e-06 8.7222724797557204e-06 4.9569857761351943e-06 0 0 0</Inertia>
 </MassProperties>
@@ -390,9 +713,9 @@
 <ModelUnits mass="kilogram" length="millimeter"/>
 <PartFile name="Z_axisMultibodyPart.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.66701410980193532</Mass>
-<CenterOfMass>0.0067087632148379083 0.008658741347636726 2.1797007124954153e-06</CenterOfMass>
-<Inertia>0.0045986009698223175 0.0010205737156263723 0.0039991434343727532 1.461063473468937e-06 -9.9687446491370021e-08 -0.00036904593788595529</Inertia>
+<Mass>0.6670141098019351</Mass>
+<CenterOfMass>0.0067087632148379083 0.0086587413476367329 2.179700712495741e-06</CenterOfMass>
+<Inertia>0.0045986009698223175 0.0010205737156263725 0.0039991434343727523 1.4610634734689626e-06 -9.9687446491372986e-08 -0.00036904593788595529</Inertia>
 </MassProperties>
 <GeometryFile name="Z_axisMultibodyPart_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>

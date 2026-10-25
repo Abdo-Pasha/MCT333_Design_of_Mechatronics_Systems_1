@@ -1,0 +1,108 @@
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-1'
+Constraint Name: Lock5
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-1'
+Constraint Name: Lock5
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-1'
+Constraint Name: Lock5
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-2'
+Constraint Name: Lock10
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-2'
+Constraint Name: Lock10
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-2'
+Constraint Name: Lock10
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-3'
+Constraint Name: Lock11
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-3'
+Constraint Name: Lock11
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-3'
+Constraint Name: Lock11
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-4'
+Constraint Name: Lock12
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-4'
+Constraint Name: Lock12
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-4'
+Constraint Name: Lock12
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-5'
+Constraint Name: Lock13
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-5'
+Constraint Name: Lock13
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeedingDiscMultibodyPart-2', 'LocatingPart-5'
+Constraint Name: Lock13
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-6'
+Constraint Name: Lock6
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-6'
+Constraint Name: Lock6
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-6'
+Constraint Name: Lock6
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-8'
+Constraint Name: Lock7
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-8'
+Constraint Name: Lock7
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-8'
+Constraint Name: Lock7
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-7'
+Constraint Name: Lock8
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-7'
+Constraint Name: Lock8
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-7'
+Constraint Name: Lock8
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-9'
+Constraint Name: Lock9
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-9'
+Constraint Name: Lock9
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FullAssembly-1', 'LocatingPart-9'
+Constraint Name: Lock9
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
